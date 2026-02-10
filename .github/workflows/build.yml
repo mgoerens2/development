@@ -1,5 +1,7 @@
 name: CI
 
+# This is a test
+
 on:
   # NOTE: There are implementation details in this workflow that require the
   # triggering event be pull_request_target. See RESOLVED_GITHUB_REF before
@@ -30,7 +32,7 @@ env:
   # workflow to run E2E tests.
   #
   # If unset, the default (relative to openshift-helm-charts) is used.
-  SANDBOX_REPO: ${{ vars.SANDBOX_REPO || 'openshift-helm-charts/sandbox-2025-11' }}
+  SANDBOX_REPO: 'mgoerens/sandbox'
 
 concurrency:
   group: cert-ci-${{ github.event.pull_request.number }}
