@@ -15,4 +15,4 @@ WORKFLOW_CERTIFICATION_CI = "CI"
 # The name of the workflow for Red Hat OWNERS check submissions, used to get its ID.
 WORKFLOW_REDHAT_OWNERS_CHECK = "Red Hat OWNERS Files"
 # GitHub actions bot email for git email
-GITHUB_ACTIONS_BOT_EMAIL = "41898282+github-actions[bot]@users.noreply.github.com"
+GITHUB_ACTIONS_BOT_EMAIL = "matthymatt@hotmail.com"
