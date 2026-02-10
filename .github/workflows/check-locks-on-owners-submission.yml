@@ -13,7 +13,7 @@ name: Check Chart Lock Status
 # to merge modifications.
 
 on:
-  pull_request_target:
+  pull_request:
     types: [opened, synchronize, reopened, edited, ready_for_review, labeled]
     paths:
     - charts/community/**/OWNERS
